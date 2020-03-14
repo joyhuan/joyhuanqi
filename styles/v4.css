@@ -1,0 +1,79 @@
+body {
+  color: white;
+  background-color:  #D4A59A;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  font-weight: normal;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  background-color: inherit;
+  font-family: Georgia, Times, Serif;
+}
+
+h2 {
+  text-decoration: blink;
+  color: black;
+  background-color: inherit;
+  font-family :"Georgia","Times New Roman",Serif;
+}
+
+p {
+  text-align: justify;
+  color: black;
+  background-color: inherit;
+  font-family: "Times", "Times New Roman", SERIF;
+}
+
+li {
+  color: black;
+  background-color:inherit;
+  padding: 10px;
+  font-family: "Times","Times New Roman",  Serif;
+}
+
+li a {
+    background-color:inherit;
+    color: black;
+    font-style: italic;
+}
+
+li q {
+    background-color: inherit;
+    color:black;
+    font-size: 20px;
+}
+
+p q{
+    background-color: inherit;
+    color:black;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+footer {
+    width: 100%;
+    flex-shrink: 0;
+    text-align: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    bottom: 0%;
+}
+
+footer a:link {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: white;
+}

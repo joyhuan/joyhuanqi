@@ -1,11 +1,11 @@
 # My Personal Website (https://joyhuanqi.com/)
 
-This was Project 1 of CS 1300 Web Design at Cornell. I used to edit in my Cornell github, but it had some limitations to hosts. 
+This was Project 1 of CS 1300 Web Design at Cornell. 
 
 # Stage One: Heroku 
 
 I used Heroku Host when I finished the school project. The major two reasons are: 
-- It was recommended by the professor (potentially as a way to get around with limitations of Cornell Github; but the limitations are for good reasons - Academic Integrity)
+- It was recommended by the professor (potentially as a way to get around with limitations of Cornell Github; but the limitations are for good reason - Academic Integrity)
 - I attended a workshop held by Hubspot which shows how Heruku can process users' input to a backend database in my freshman year. Since then I always wanted to try host something in Heroku. 
 However, it has three major drawbacks: 
 - It takes really long to load the page 
@@ -20,7 +20,7 @@ Now I use Git as a host. The load speed is much faster and I can get a https for
 
 # What I learned: 
 
-In the process of changing host, I thought more about how the host works instead of simply following the commands step by step without thinking. Then the steps become natural - I need to first unregister my project in Heroku and update the IP to Github instead. I also learnt some common NDS records. Those are fun as well. 
+In the process of changing host, I thought more about how the host works instead of simply following the commands step by step without thinking. The steps then become natural - I need to first unregister my project in Heroku and update the IP to Github. I also learnt some fun common NDS records.  
 
 # Stage Three: Future
 

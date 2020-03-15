@@ -7,6 +7,7 @@ This was Project 1 of CS 1300 Web Design at Cornell.
 I used Heroku Host when I finished the school project. The major two reasons are: 
 - It was recommended by the professor (potentially as a way to get around with limitations of Cornell Github; but the limitations are for good reason - Academic Integrity)
 - I attended a workshop held by Hubspot which shows how Heruku can process users' input to a backend database in my freshman year. Since then I always wanted to try host something in Heroku. 
+
 However, it has three major drawbacks: 
 - It takes really long to load the page 
 - I need to pay an annual fee to get https instead of http

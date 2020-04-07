@@ -34,6 +34,31 @@ p q{
     color:white;
 }
 
+#footer-wrapper {
+    height: 65px;
+    margin: 0 auto;
+    color: inherit;
+    background-color: #C38D9E;
+    /* padding: 20px; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* padding-right: 200px; */
+}
+
+#footer-content
+{
+height:65px;
+max-height:120px;
+position:relative;
+width:100%;
+max-width:950px;
+margin: auto;
+margin-top: 20px;
+color: inherit;
+background-color: #C38D9E;
+}
+
 footer {
     position: fixed;
     width: 100%;

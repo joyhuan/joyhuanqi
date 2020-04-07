@@ -3,11 +3,11 @@
     <head>
         <meta charset="UTF-8">
         <title>My researches</title>
-        <link href = "styles/research.css" type = "text/css" rel = "stylesheet" />
+        <link href = "styles/v2.css" type = "text/css" rel = "stylesheet" />
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
     </head>
     <body>
-        <h1>My researches</h1>
+        <h1> My researches </h1>
         <div class="row">
           <div class = "column1"><i class="fas fa-home"></i> <a href="index.html">Home</a></div>
           <div class="column1"> <i class="far fa-laptop-code"></i>  <a href="projects.html"> Projects</a> </div>
@@ -21,27 +21,39 @@
           <div class="column"> <a href="books.html"><i class="far fa-books"></i> Books </a>  </div>
         </div>
 
-        <h2>Spectral Clustering Algorithm Research (with Professor Anil Damle) <a href="https://github.com/asdamle/QR-spectral-clustering" target="_blank">Link to Github</a> </h2>
-        <p> <strong>Background</strong>: Traditional K-means++ algorithm has a pitfall: given a bad initialization, it may not converge and will generate a bad result. </p>
+        <h2>Spectral Clustering Algorithm Research (with Professor Anil Damle)
+            <a href="https://github.com/asdamle/QR-spectral-clustering"
+            target="_blank">Link to Github</a> </h2>
+        <p> <strong>Background</strong>: Traditional K-means++ algorithm has a
+            pitfall: given a bad initialization, it may not converge and will
+            generate a bad result. </p>
 
         <p> <strong>Method</strong>: We use a special column-pivoted QR factorization. </p>
 
         <p><strong>Benefits</strong>: Our algo is more robust and efficient in computing. </p>
 
-        <p> <strong>Testing</strong>: We also tested the robustness of our CPQR algorithms and the graph below shows the performance of four diffferent clustering methods.
-        </p>
-        <p> The following graph shows the accuracy comparison of our CPQR and the traditions k-means method.
+        <p> <strong>Testing</strong>: We also tested the robustness of our CPQR
+            algorithms and the graph below shows the performance of four
+            diffferent clustering methods.</p>
+
+        <p> The following graph shows the accuracy comparison of our CPQR and
+            the traditions k-means method.
           <a href="https://arxiv.org/abs/1609.08251">Check Source</a>
         </p>
+
          <div class = "images">
             <!-- Image Source: https://arxiv.org/abs/1609.08251/ -->
             <img src="images/CPQR.png" alt="CPQR results" width = "600" height = "450"/>
         </div>
 
     <footer>
+      <div id="footer-wrapper">
+      <div id="footer-content">
       <div class="column"> <a href="https://www.linkedin.com/in/huan-qi-345913110/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn </a> </div>
       <div class="column"> <a href="https://github.com/joyhuan" target="_blank"><i class="fab fa-github"></i> Github</a> </div>
       <div class="column"> <a href="mailto:hq38@cornell.edu"><i class="far fa-envelope"></i> Email </a>  </div>
+      </div>
+      </div>
     </footer>
 
     </body>

@@ -22,6 +22,7 @@ h2 {
 }
 
 p {
+  padding-left: 15px;
   text-align: left;
   color: white;
   background-color: inherit;
@@ -51,8 +52,32 @@ p q{
     color:white;
 }
 
+#footer-wrapper {
+    height: 65px;
+    margin: 0 auto;
+    background: #7395AE;
+    /* padding: 20px; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* padding-right: 200px; */
+}
+
+#footer-content
+{
+height:65px;
+max-height:120px;
+position:relative;
+width:100%;
+max-width:950px;
+margin: 0 auto;
+margin-top:20px;
+color: #7395AE;
+}
+
 footer {
-    /* position: fixed; */
+    margin-top: 20px;
+    position: fixed;
     width: 100%;
     flex-shrink: 0;
     text-align: center;
@@ -63,12 +88,12 @@ footer {
 }
 
 footer a:link {
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 
 footer a:visited {
-  color: white;
+  /* color: white; */
 }
 
 .main{
@@ -153,13 +178,13 @@ footer a:visited {
   color: white;
   text-decoration: none;}
 .row a:visited {
-  color: white;}
-
+  color: white;
+}
 .project a:link {
-  color: blue;
+  color: white;
   text-decoration: none;
 }
 
 .project a:visited {
-  color: blue;
+  color: white;
 }

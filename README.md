@@ -2,7 +2,7 @@
 
 This was Project 1 of CS 1300 Web Design at Cornell. 
 
-# Stage One: Heroku 
+## Stage One: Heroku 
 
 I used Heroku Host when I finished the school project. The major two reasons are: 
 - It was recommended by the professor (potentially as a way to get around with limitations of Cornell Github; but the limitations are for good reason - Academic Integrity)
@@ -15,19 +15,21 @@ However, it has three major drawbacks:
 
 I was afraid that the first two drawbacks make my website look like a Diaoyu Wangzhan (phising) haha. So I finally decided to change my host from Heroku to Git. 
 
-# Stage Two: Git (Current Stage)
+## Stage Two: Git (Current Stage)
 
 Now I use Git as a host. The load speed is much faster and I can get https for free :)
 
-# What I learned: 
+## Lesson: 
 
 In the process of changing host, I thought more about how the host works instead of simply following the commands step by step without thinking. The steps then become natural - I need to first unregister my project in Heroku and update the IP to Github. I also learnt some fun common NDS records.  
 
-# Stage Three: Future
+## Stage Three: Future
 
-Since I'm a utilitarian, I'm not too concerned with the appearance of my website. However, I do care about its features. My current two biggest concerns are:
-- It is not very responsive. When viewing on phone, it shows the same layout as in PC. This needs to be adjusted to give a better user experience
-- I want to try different web programming technology. React and Angular JS are in top of my list. 
+- Even if I'm a utilitarian and not too concerned with the appearance of my website, its current status is still not very presentable. However, I still haven't come up with a neat design. But I will gradually fix small things to get there. 
+
+- In terms of features, my current two biggest concerns are:
+  - It is not very responsive. When viewing on phone, it shows the same layout as in PC. This needs to be adjusted to give a better user experience. 
+  - I want to try different web programming technology. React and Angular JS are in top of my list. 
 
 
 

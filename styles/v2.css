@@ -55,7 +55,8 @@ p q{
 #footer-wrapper {
     height: 65px;
     margin: 0 auto;
-    background: #7395AE;
+    color: inherit;
+    background-color: #7395AE;
     /* padding: 20px; */
     position: fixed;
     bottom: 0;
@@ -70,9 +71,10 @@ max-height:120px;
 position:relative;
 width:100%;
 max-width:950px;
-margin: 0 auto;
-margin-top:20px;
-color: #7395AE;
+margin: auto;
+margin-top: 20px;
+color: inherit;
+background-color: #7395AE;
 }
 
 footer {
@@ -88,12 +90,14 @@ footer {
 }
 
 footer a:link {
-  /* color: white; */
+  background-color: inherit;
+  color: white;
   text-decoration: none;
 }
 
 footer a:visited {
-  /* color: white; */
+  background-color: inherit;
+  color: white;
 }
 
 .main{
@@ -175,16 +179,20 @@ footer a:visited {
     height: auto;
 }
 .row a:link {
+  background-color: inherit;
   color: white;
   text-decoration: none;}
 .row a:visited {
+  background-color: inherit;
   color: white;
 }
 .project a:link {
+  background-color: inherit;
   color: white;
   text-decoration: none;
 }
 
 .project a:visited {
+  background-color: inherit;
   color: white;
 }

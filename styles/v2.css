@@ -5,6 +5,10 @@ body {
   font-weight: normal;
 }
 
+.arts {
+    background-color: #C38D9E;
+}
+
 h1 {
   font-weight: 200;
   text-align: center;
@@ -31,6 +35,9 @@ p {
 }
 
 li {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
   color: white;
   background-color:inherit;
   font-family: Roboto,"Helvetica Neue",sans-serif;
@@ -53,16 +60,37 @@ p q{
     color:white;
 }
 
+#arts-footer-wrapper{
+    height: 40px;
+    margin: 0 auto;
+    color: inherit;
+    background-color: #C38D9E;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#arts-footer-content
+{
+    height:40px;
+    max-height:120px;
+    position:relative;
+    width:100%;
+    max-width:950px;
+    margin: auto;
+    margin-top: 20px;
+    color: inherit;
+    background-color: #C38D9E;
+}
+
 #footer-wrapper {
     height: 65px;
     margin: 0 auto;
     color: inherit;
     background-color: #7395AE;
-    /* padding: 20px; */
     position: fixed;
     bottom: 0;
     width: 100%;
-    /* padding-right: 200px; */
 }
 
 #footer-content

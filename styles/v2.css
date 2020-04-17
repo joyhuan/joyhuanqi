@@ -5,7 +5,7 @@ body {
   font-weight: normal;
 }
 
-.arts {
+.aesthetic {
     background-color: #C38D9E;
 }
 
@@ -60,7 +60,7 @@ p q{
     color:white;
 }
 
-#arts-footer-wrapper {
+#aesthetic-footer-wrapper {
     height: 65px;
     margin: 0 auto;
     color: inherit;
@@ -70,7 +70,7 @@ p q{
     width: 100%;
 }
 
-#arts-footer-content
+#aesthetic-footer-content
 {
     height:65px;
     max-height:120px;
@@ -119,13 +119,13 @@ footer {
     bottom: 0%;
 }
 
-footer a:link {
+a:link {
   background-color: inherit;
   color: white;
   text-decoration: none;
 }
 
-footer a:visited {
+a:visited {
   background-color: inherit;
   color: white;
 }
@@ -207,22 +207,4 @@ footer a:visited {
     max-height: 100%;
     width: auto;
     height: auto;
-}
-.row a:link {
-  background-color: inherit;
-  color: white;
-  text-decoration: none;}
-.row a:visited {
-  background-color: inherit;
-  color: white;
-}
-.project a:link {
-  background-color: inherit;
-  color: white;
-  text-decoration: none;
-}
-
-.project a:visited {
-  background-color: inherit;
-  color: white;
 }

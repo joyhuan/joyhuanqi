@@ -29,36 +29,22 @@
         <ul>
             <!-- <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li> -->
             <li><a href="index.html">Home</a></li>
-            <li>Systems</li>
-            <li>Formal Verification</li>
-            <li>Automation</li>
-            <li>Game</li>
+            <li><a href="#systems">Systems</a></li>
+            <!-- <li><a href="#formalverification">Formal Verification</a></li> -->
+            <li><a href="#automation">Automation</a></li>
+            <li><a href="#game">Game</a></li>
+            <li><a href="#others">Others</a></li>
         </ul>
     </div>
 <br/>
 <br/>
 <br/>
     <div id="projects">
-        <div class = "project">
-            <h2 id = 'NLP'><a name = 'NLP'>NLP Opinion Spam Classification | Python, N-grams, Naive Bayes </a></h2>
-            <ol>
-                <li> Achieved 91% classfication accuracy using N-gram and Naive Bayes models.
-                <li> Used different methods to apply smoothing and handle unknown words.
-                <li> Got the <a href=https://www.kaggle.com/c/cs4740fall2019p1nb/leaderboard target="_blank">3rd place</a> in the leaderboard of the class project!
-            </ol>
-        </div>
-
+        <h2><a name="systems">Systems</a></h2>
         <div class = "project">
             <h2 id = 'DS'><a name = 'DS'>Chatbot Server | Python, Distributed Systems, TCP</a></h2>
             <p> Implemented a FIFO consistent chat room using TCP sockets. </p>
             <p> Supported features include: 1. Each server keeps a log of messages that other servers send to it. 2. Servers can detect the a server has failed within one second.  </p>
-        </div>
-
-        <div class = "project">
-            <h2> Third Place in Citadel Datathon </h2>
-                <p> Task: Analyze how various factors such as natural events and governmental initiatives have influenced the quality of water throughout time. We were given datasets of the chemicals, droughts, water usage and industry occupational. </p>
-                <p> Strategy: utilize clustering and regression and make various data visualization to present findings. </p>
-                <p> Testing: by case study. Please check out our <a href="https://drive.google.com/file/d/1ih6clikA57swrBGLFqMugsECMFfYOTFu/view?usp=sharing" target="_blank">report</a> if you are interested. However, we cannot provide the data because of property reason. </p>
         </div>
 
         <div class = "project">
@@ -67,11 +53,27 @@
             <p>
               Got the <a href=http://www.cs.cornell.edu/courses/cs3410/2017sp/projects/p7/leaderboard/ target="_blank">3rd place</a> in the leaderboard of the class final project! </p>
         </div>
-
+        <h2><a name="automation">Automation</a></h2>
+        <div class = "project">
+            <h2 id = 'NLP'><a name = 'NLP'>NLP Opinion Spam Classification | Python, N-grams, Naive Bayes </a></h2>
+            <ol>
+                <li> Achieved 91% classfication accuracy using N-gram and Naive Bayes models.
+                <li> Used different methods to apply smoothing and handle unknown words.
+                <li> Got the <a href=https://www.kaggle.com/c/cs4740fall2019p1nb/leaderboard target="_blank">3rd place</a> in the leaderboard of the class project!
+            </ol>
+        </div>
+        <h2><a name="game">Game</a></h2>
         <div class = "project">
             <h2 id = 'Monopoly'><a name = 'Monopoly'> Boardgame Monopoly | OCaml </a></h2>
             <p> Interactive UI of Monopoly </p>
             <img src="images/Monopoly.png" alt="monopoly image" width = "400" height = "300"/>
+        </div>
+        <h2><a name="others">Others</a></h2>
+        <div class = "project">
+            <h2> Third Place in Citadel Datathon </h2>
+                <p> Task: Analyze how various factors such as natural events and governmental initiatives have influenced the quality of water throughout time. We were given datasets of the chemicals, droughts, water usage and industry occupational. </p>
+                <p> Strategy: utilize clustering and regression and make various data visualization to present findings. </p>
+                <p> Testing: by case study. Please check out our <a href="https://drive.google.com/file/d/1ih6clikA57swrBGLFqMugsECMFfYOTFu/view?usp=sharing" target="_blank">report</a> if you are interested. However, we cannot provide the data because of property reason. </p>
         </div>
 
         <div class = "project">
@@ -105,9 +107,7 @@
     <script>
     function openNav() {
       document.getElementById("sidebar").classList.toggle('active');
-
-      // document.getElementById("sidebar").style.width = "250px";
-      // document.getElementById("projects").style.marginLeft = "250px";
+      document.getElementById("projects").classList.toggle('active');
     }
 
     // function closeNav() {

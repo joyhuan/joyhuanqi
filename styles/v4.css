@@ -197,14 +197,16 @@ a:visited{
     font-family:sans-serif;
 }
 
-/* #projects {
-    left:2000px;
+#projects {
+    /* padding-top: 40px; */
+    margin-left:0px;
     transition: all 500ms linear;
 }
 
+
 #projects.active {
-    left:250px;
-} */
+    margin-left:200px;
+}
 
 #sidebar {
     left: 0;

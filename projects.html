@@ -3,32 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <title> Projects </title>
-        <link href = "styles/v2.css" type = "text/css" rel = "stylesheet" />
+        <link href = "styles/v4.css" type = "text/css" rel = "stylesheet" />
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
     </head>
     <body>
-    <h1>My projects</h1>
-    <div class="row">
-      <div class = "column1"><i class="fas fa-home"></i> <a href="index.html">Home</a></div>
-      <div class="column1"> <i class="far fa-laptop-code"></i>  <a href="projects.html"> Projects</a> </div>
-      <div class="column1"> <i class="far fa-search-minus"></i> <a href="researches.html"> Research</a> </div>
-      <div class="column1"> <i class="far fa-briefcase"></i> <a href="work.html"> Work</a> </div>
+        <h1> My projects </h1>
+        <!-- <div class="row">
+          <div class = "column1"><i class="fas fa-home"></i> <a href="index.html">Home</a></div>
+          <div class="column1"> <i class="far fa-laptop-code"></i>  <a href="projects.html"> Projects</a> </div>
+          <div class="column1"> <i class="far fa-search-minus"></i> <a href="researches.html"> Research</a> </div>
+          <div class="column1"> <i class="far fa-briefcase"></i> <a href="work.html"> Work</a> </div>
+        </div>
+
+        <div class="row">
+          <div class="column"> <a href="aesthetic.html"><i class="far fa-palette"></i> Aesthetic </a> </div>
+          <div class="column"> <a href="sports.html"><i class="fas fa-shuttlecock"></i> Sports </a> </div>
+          <div class="column"> <a href="literature.html"><i class="far fa-books"></i> Literature </a>  </div>
+        </div> -->
+
+    <div id="sidebar">
+        <div class="toggle-btn" onclick="openNav()">
+            <i class="fas fa-bars"></i>
+        </div>
+
+        <ul>
+            <!-- <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a></li> -->
+            <li><a href="index.html">Home</a></li>
+            <li>Systems</li>
+            <li>Formal Verification</li>
+            <li>Automation</li>
+            <li>Game</li>
+        </ul>
     </div>
-
-    <div class="row">
-      <div class="column"> <a href="aesthetic.html"><i class="far fa-palette"></i> Aesthetic </a> </div>
-      <div class="column"> <a href="sports.html"><i class="fas fa-shuttlecock"></i> Sports </a> </div>
-      <div class="column"> <a href="literature.html"><i class="far fa-books"></i> Literature </a>  </div>
-    </div>
-
-    <div class = "projects">
-
+<br/>
+<br/>
+<br/>
+    <div id="projects">
         <div class = "project">
             <h2 id = 'NLP'><a name = 'NLP'>NLP Opinion Spam Classification | Python, N-grams, Naive Bayes </a></h2>
-            <p> Achieved 91% classfication accuracy using N-gram and Naive Bayes models. </p>
-            <p> Used different methods to apply smoothing and handle unknown words.  </p>
-            <p>
-              Got the <a href=https://www.kaggle.com/c/cs4740fall2019p1nb/leaderboard target="_blank">3rd place</a> in the leaderboard of the class project! </p>
+            <ol>
+                <li> Achieved 91% classfication accuracy using N-gram and Naive Bayes models.
+                <li> Used different methods to apply smoothing and handle unknown words.
+                <li> Got the <a href=https://www.kaggle.com/c/cs4740fall2019p1nb/leaderboard target="_blank">3rd place</a> in the leaderboard of the class project!
+            </ol>
         </div>
 
         <div class = "project">
@@ -74,10 +91,6 @@
             <p> Got 87% accuracy. <a href="https://www.kaggle.com/mehdidag/black-friday/" target="_blank"> Check the Contest Page </a>  </p>
         </div> -->
     </div>
-    <br>
-    <br>
-    <br>
-    <!-- TODO: Not ideal fix but call it end of today  -->
 
     <footer>
       <div id="footer-wrapper">
@@ -89,5 +102,20 @@
       </div>
     </footer>
 
+    <script>
+    function openNav() {
+      document.getElementById("sidebar").classList.toggle('active');
+
+      // document.getElementById("sidebar").style.width = "250px";
+      // document.getElementById("projects").style.marginLeft = "250px";
+    }
+
+    // function closeNav() {
+    //     document.getElementById("sidebar").classList.toggle('deactive');
+    //   // document.getElementById("sidebar").style.width = "0";
+    //   // document.getElementById("projects").style.marginLeft= "0";
+    // }
+
+    </script>
 </body>
 </html>

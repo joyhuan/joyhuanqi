@@ -1,42 +1,56 @@
 body {
-  color: white;
-  background-color:  #D4A59A;
+  color: black;
   font-family: Roboto,"Helvetica Neue",sans-serif;
   font-weight: normal;
 }
 
 h1 {
+  font-weight: 400;
+  position: fixed;
+  top: 0;
+  width: 100%;
   text-align: center;
   color: black;
-  background-color: inherit;
-  font-family: Georgia, Times, Serif;
+  background-color: white;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(100,100,100,0.3);
 }
 
 h2 {
   text-decoration: blink;
   color: black;
   background-color: inherit;
-  font-family :"Georgia","Times New Roman",Serif;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+  font-weight: normal;
+  padding-bottom: 15px;
 }
 
 p {
-  text-align: justify;
-  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  color: #868B8E;
   background-color: inherit;
-  font-family: "Times", "Times New Roman", SERIF;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+ol {
+  padding-left: 25px;
+  padding-right: 15px;
+  text-align: left;
+  color: #868B8E;
+  background-color:inherit;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
 }
 
 li {
-  color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+  color: #868B8E;
   background-color:inherit;
-  padding: 10px;
-  font-family: "Times","Times New Roman",  Serif;
-}
-
-li a {
-    background-color:inherit;
-    color: black;
-    font-style: italic;
+  font-family: Roboto,"Helvetica Neue",sans-serif;
 }
 
 li q {
@@ -50,16 +64,28 @@ p q{
     color:black;
 }
 
-a:link {
-  color: white;
-  text-decoration: none;
+#footer-wrapper {
+    height: 65px;
+    margin: 0 auto;
+    color: inherit;
+    bottom: 0;
+    width: 100%;
 }
 
-a:visited {
-  color: white;
+#footer-content
+{
+    height:65px;
+    max-height:120px;
+    /* position:relative; */
+    width:100%;
+    max-width:950px;
+    margin: auto;
+    margin-top: 20px;
+    color: inherit;
 }
 
 footer {
+    margin-top: 20px;
     width: 100%;
     flex-shrink: 0;
     text-align: center;
@@ -69,11 +95,148 @@ footer {
     bottom: 0%;
 }
 
-footer a:link {
-  color: white;
+a:link {
+  background-color: inherit;
+  color: #868B8E;
   text-decoration: none;
+  font-style: italic;
 }
 
-footer a:visited {
-  color: white;
+a:visited{
+    color: #868B8E;
+}
+
+.main{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    line-height: 1.8;
+}
+
+.profile{
+    float: left;
+    width: 50%;
+}
+
+.has-icon {
+    font-size: 120%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    font-size: 120%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding-bottom: 25px;
+}
+
+.column1 {
+    float: left;
+    width: 25%;
+    padding-bottom: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.projects {
+    font-size: 120%;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    float: left;
+    width: 87%;
+    /* height: 560px; */
+    /* border: 1px dotted black; */
+    margin-left: 60px;
+    padding: 25px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+    left:-200px;
+}
+
+.project.active {
+    left:0px;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+/* #projects {
+    left:2000px;
+    transition: all 500ms linear;
+}
+
+#projects.active {
+    left:250px;
+} */
+
+#sidebar {
+    left: 0;
+    position:fixed;
+    width:200px;
+    height:100%;
+    background: #151719;
+    left:-200px;
+    transition: all 500ms linear;
+}
+
+#sidebar.active {
+    left:0px;
+}
+
+#sidebar ul li {
+    color:rgba(230, 230, 230, 0.9);
+    list-style:none;
+    padding:15px 10px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    left:230px;
+    top:20px;
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 5px 0px;
 }

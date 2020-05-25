@@ -65,7 +65,7 @@ p q{
     margin: 0 auto;
     color: inherit;
     background-color: #C38D9E;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
@@ -89,7 +89,7 @@ p q{
     margin: 0 auto;
     color: inherit;
     background-color: #7395AE;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
 }
@@ -98,7 +98,7 @@ p q{
 {
     height:65px;
     max-height:120px;
-    position:relative;
+    /* position:relative; */
     width:100%;
     max-width:950px;
     margin: auto;
@@ -109,7 +109,7 @@ p q{
 
 footer {
     margin-top: 20px;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     flex-shrink: 0;
     text-align: center;

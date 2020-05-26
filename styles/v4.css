@@ -1,4 +1,5 @@
 body {
+  background-color: white;
   color: black;
   font-family: Roboto,"Helvetica Neue",sans-serif;
   font-weight: normal;
@@ -12,18 +13,24 @@ h1 {
   text-align: center;
   color: black;
   background-color: white;
-  font-family: Roboto,"Helvetica Neue",sans-serif;
   padding-bottom: 5px;
   border-bottom: 1px solid rgba(100,100,100,0.3);
 }
 
 h2 {
+  padding-top: 15px;
+  text-align: left;
+  margin-left: 70px;
+  text-decoration: blink;
+  font-weight: normal;
+}
+
+h3 {
   text-decoration: blink;
   color: black;
-  background-color: inherit;
-  font-family: Roboto,"Helvetica Neue",sans-serif;
-  font-weight: normal;
+  background-color: white;
   padding-bottom: 15px;
+  font-weight: normal;
 }
 
 p {
@@ -41,7 +48,14 @@ ol {
   text-align: left;
   color: #868B8E;
   background-color:inherit;
-  font-family: Roboto,"Helvetica Neue",sans-serif;
+}
+
+ul {
+  padding-left: 25px;
+  padding-right: 15px;
+  text-align: left;
+  color: #868B8E;
+  background-color:inherit;
 }
 
 li {
@@ -67,6 +81,7 @@ p q{
 #footer-wrapper {
     height: 65px;
     margin: 0 auto;
+    background-color: inherit;
     color: inherit;
     bottom: 0;
     width: 100%;
@@ -76,12 +91,10 @@ p q{
 {
     height:65px;
     max-height:120px;
-    /* position:relative; */
     width:100%;
     max-width:950px;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 20px;
-    color: inherit;
 }
 
 footer {
@@ -103,6 +116,7 @@ a:link {
 }
 
 a:visited{
+    background-color: inherit;
     color: #868B8E;
 }
 
@@ -170,10 +184,8 @@ a:visited{
 }
 
 .project {
-    float: left;
+    /* float: left; */
     width: 87%;
-    /* height: 560px; */
-    /* border: 1px dotted black; */
     margin-left: 60px;
     padding: 25px;
     border-bottom: 1px solid rgba(100,100,100,0.3);
@@ -198,7 +210,6 @@ a:visited{
 }
 
 #projects {
-    /* padding-top: 40px; */
     margin-left:0px;
     transition: all 500ms linear;
 }
@@ -209,7 +220,6 @@ a:visited{
 }
 
 #sidebar {
-    left: 0;
     position:fixed;
     width:200px;
     height:100%;

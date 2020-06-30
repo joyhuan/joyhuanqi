@@ -176,6 +176,10 @@ a:visited {
     padding-bottom: 25px;
 }
 
+.workLesson {
+    text-align: center;
+}
+
 /* Clear floats after the columns */
 .row:after {
     content: "";

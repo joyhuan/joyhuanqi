@@ -8,18 +8,6 @@
     </head>
     <body>
         <h1> My projects </h1>
-        <!-- <div class="row">
-          <div class = "column1"><i class="fas fa-home"></i> <a href="index.html">Home</a></div>
-          <div class="column1"> <i class="far fa-laptop-code"></i>  <a href="projects.html"> Projects</a> </div>
-          <div class="column1"> <i class="far fa-search-minus"></i> <a href="researches.html"> Research</a> </div>
-          <div class="column1"> <i class="far fa-briefcase"></i> <a href="work.html"> Work</a> </div>
-        </div>
-
-        <div class="row">
-          <div class="column"> <a href="aesthetic.html"><i class="far fa-palette"></i> Aesthetic </a> </div>
-          <div class="column"> <a href="sports.html"><i class="fas fa-shuttlecock"></i> Sports </a> </div>
-          <div class="column"> <a href="literature.html"><i class="far fa-books"></i> Literature </a>  </div>
-        </div> -->
 
     <div id="sidebar">
         <div class="toggle-btn" onclick="openNav()">
@@ -31,7 +19,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="#systems">Systems</a></li>
             <li><a href="#architecture">Architecture</a></li>
-            <!-- <li><a href="#formalverification">Formal Verification</a></li> -->
+            <li><a href="#formalverification">Formal Verification</a></li>
             <li><a href="#automation">Automation</a></li>
             <li><a href="#game">Game</a></li>
             <li><a href="#others">Others</a></li>
@@ -42,6 +30,7 @@
 <br/>
     <div id="projects">
         <h2><a name="systems">Systems</a></h2>
+
         <div class = "project">
             <h3 id = 'DS'><a name = 'DS'> Chatbot Server | Python, Distributed Systems, TCP</a></h3>
             <ul>
@@ -61,10 +50,22 @@
 
         <h2><a name="architecture">Architecture</a></h2>
         <div class = "project">
-            <h3 id = 'archi'><a name = 'archi'> Multicore System | Verilog </a></h3>
+            <h3 id = 'archi'><a name = 'archi'> Multicore System | Verilog, Python </a></h3>
             <ul>
                 <li> Implemented a complete multicore system capable of running simple parallel applications at the register-transfer level. </li>
-                <li> Supported stalling and bypassing. </li>
+                <li> Consist of processor and cache </li>
+                <li> Processor is five-stage pipelined and supports stalling and bypassing. </li>
+                <li> Cache support both direct-mapped and set-associative with LRU policy. </li>
+            </ul>
+        </div>
+
+        <h2><a name="formalverification">Formal Verification</a></h2>
+
+        <div class = "project">
+            <h3 id = 'formal verification'><a name = 'formal verification'> Formal Verification | Coq </a></h3>
+            <ul>
+                <li> One of my favorite topics because it improves my logic so much! </li>
+                <li> Haven't figured out a good way to explain this. It may sounds so easy even stupic without a more involved context. Will come back later. </li>
             </ul>
         </div>
 
@@ -80,12 +81,25 @@
         </div>
 
         <h2><a name="game">Game</a></h2>
+
         <div class = "project">
-            <h3 id = 'Monopoly'><a name = 'Monopoly'> Boardgame Monopoly | OCaml </a></h3>
+            <h3 id = "Farmville"><a name = 'Farmville'> Farmville | C++ </a></h3>
+            <ul>
+                <li> Coordinate farmer and animals to harvest efficiently. </li>
+                <li> Coordinate children and shop to satisfy demands. </li>
+                <li> Enforced tons of synchronization conditions to avoid objects crash/lost products. </li>
+                <li> This game was really popular in my high school, thus it has special meaning that I programmed it in my master. </li>
+            </ul>
+        </div>
+
+        <div class = "project">
+            <h3 id = 'Monopoly'><a name = 'Monopoly'> Boardgame Monopoly | OCaml, Synchronization </a></h3>
             <p> Interactive UI of Monopoly </p>
             <img src="images/Monopoly.png" alt="monopoly image" width = "400" height = "300"/>
         </div>
+
         <h2><a name="others"> Others </a></h2>
+
         <div class = "project">
             <h3> Third Place in Citadel Datathon </h3>
             <ul>

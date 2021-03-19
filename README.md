@@ -25,13 +25,7 @@ In the process of changing host, I thought more about how the host works instead
 
 ## Stage Three: Future
 
-- Even if I'm a utilitarian and not too concerned with the appearance of my website, its current status is still not very presentable. However, I still haven't come up with a neat design. But I will gradually fix small things to get there. 
-
-- In terms of features, my current two biggest concerns are:
-  - It is not very responsive. When viewing on phone, it shows the same layout as in PC. This needs to be adjusted to give a better user experience. 
-  - I want to try different web programming technology. React and Angular JS are in top of my list. 
-
-
+- I'm a utilitarian and not too concerned with website appearance. However, I'm not satisfied with the current status. I finally picked up Angular recently and plan to refurbish the website within the next few months. I will also try to make it more responsive and more user frienly for phone/tablet users.
 
 
 
